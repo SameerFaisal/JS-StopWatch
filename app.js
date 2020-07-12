@@ -42,9 +42,10 @@ function stop() {
     clearInterval(timer);
     timer = false;
     min = 0, sec = 0, msec = 0, hours = 0;
-
     stopWatchEl.textContent = getTimer();
 }
+
+
 
 
 function stopTimer() {
